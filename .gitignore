@@ -1,0 +1,71 @@
+# =============================
+# 📁 Java & Spring Boot
+# =============================
+
+# Compiled class files
+*.class
+
+# Maven & Gradle build folders
+target/
+build/
+out/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# =============================
+# ⚙️ Environment Files
+# =============================
+
+# Spring Boot application config (if contains secrets)
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# Environment variable files
+.env
+
+# =============================
+# 🧠 IntelliJ / IDEs
+# =============================
+
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# =============================
+# 💻 OS-specific
+# =============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# =============================
+# 💡 Optional: Package manager caches
+# =============================
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# =============================
+# 📝 Git
+# =============================
+
+# Git ignore backup
+.gitignore~

@@ -1,0 +1,3 @@
+--insert into student (rollno, name, marks) values(101, 'cat1', 79);
+--insert into student (rollno, name, marks) values(102, 'cat2', 69);
+--insert into student (rollno, name, marks) values(103, 'cat3', 82);

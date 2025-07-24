@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+
+   <bean id="alien1" class="org.coordinate.Alien" scope="singleton" autowire="byName">
+       <property name="age" value="21"></property>
+<!--       <constructor-arg value="21" />-->
+       <property name="computer" ref="laptop1"/>
+<!--       <constructor-arg ref="laptop1"/>-->
+   </bean>
+
+<!--    <bean id="alien2" class="org.coordinate.Alien">-->
+<!--    </bean>-->
+
+    <bean id="computer" class="org.coordinate.Desktop" lazy-init="true">
+    </bean>
+    <bean id="laptop1" class="org.coordinate.Laptop">
+    </bean>
+    <bean id="laptop2" class="org.coordinate.Laptop">
+    </bean>
+</beans>
